@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie-film stuff!</title>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+
+    <main>
+    
+    <!--home page-->
+    <center><h1>IMBD?</h1>
+    <h5> Internet Movie Beta Dase</h5>
+    </center>
+    <div class="container">
+        <div class = "row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">    
+                <section class="page" id="home">
+                    
+                        <form id="search-form">
+                            <input type="text" id="query">
+                            <button type="submit" id="search-btn">Search</button>
+                        </form>
+                            <button type="submit" id="clear">Clear List</button>
+
+                <!---watch list-->                   
+                    <h2>Watch List</h2>
+                    <section id="watch-list"></section>
+                </section>
+            </div>
+        </div>    
+
+        
+
+    <div class="container">
+       <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <section class="page" id="search">
+                    <h1>Search Results</h1>
+                    <h3></h3>
+                    <button type="submit" id="go-back">Back</button>
+                    <section id="display-results"></section>
+                </section>  
+            <div>      
+        </div>
+     </div>
+       
+       
+</main> 
+</body>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</html>
+

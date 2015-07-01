@@ -1,0 +1,33 @@
+body {
+	color: #4B0082;
+	background-image: url("http://thumbs.dreamstime.com/z/grunge-movie-background-17100508.jpg");
+	font-family: "Courier New";
+}
+
+.page {
+	margin-top: 10em;
+	margin-right: 1em;
+}
+h1 {
+	color: #4B0082;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 40px;
+	margin-top: 5px;
+}
+
+#film-query {
+	color: grey;
+}
+
+.home {
+	margin-top: 20em;
+}
+
+#clear {
+	float: right;
+}
+
+button {
+	border-radius: 10px;
+}
